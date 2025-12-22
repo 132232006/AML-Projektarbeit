@@ -1,7 +1,11 @@
 # AML‑Projektarbeit: Verkehrszeichenerkennung mit Objektdetektion (YOLOv8) auf GTSDB / FullIJCNN2013
 
 ## Zusammenfassung (Abstract)
-Diese Projektarbeit implementiert eine reproduzierbare Pipeline zur **Detektion und Klassifikation deutscher Verkehrszeichen** mittels **Single‑Stage Objektdetektion** (Ultralytics **YOLOv8**) auf dem Datensatz **German Traffic Sign Detection Benchmark (GTSDB)**, bereitgestellt als Archiv **FullIJCNN2013**. Der Workflow umfasst (i) die Bereitstellung des Datensatzes inklusive Ground‑Truth‑Annotationen, (ii) die Konvertierung in das **YOLO‑Format** (Train/Val/Test), (iii) Fine‑Tuning eines vortrainierten YOLOv8‑Modells unter Verwendung gezielter Datenaugmentierungen sowie (iv) quantitative Evaluation (mAP, Precision/Recall), qualitative Inferenz und Export nach **ONNX**.
+Diese Projektarbeit implementiert eine reproduzierbare Pipeline zur **Detektion und Klassifikation deutscher Verkehrszeichen** mittels **Single‑Stage Objektdetektion** (Ultralytics **YOLOv8**) auf dem Datensatz **German Traffic Sign Detection Benchmark (GTSDB)**, bereitgestellt als Archiv **FullIJCNN2013**.  
+Der Workflow umfasst  
+(a) die Bereitstellung des Datensatzes inklusive Ground‑Truth‑Annotationen,  
+(b) die Konvertierung in das **YOLO‑Format** (Train/Val/Test),  
+(c) Fine‑Tuning eines vortrainierten YOLOv8‑Modells unter Verwendung gezielter Datenaugmentierungen sowie (iv) quantitative Evaluation (mAP, Precision/Recall), qualitative Inferenz und Export nach **ONNX**.
 
 ---
 
