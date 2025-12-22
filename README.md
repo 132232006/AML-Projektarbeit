@@ -20,7 +20,7 @@ Die Benchmark‑Seite beschreibt den Datensatz, das Bildformat (PPM), die Variab
 ---
 
 ## Wichtiger manueller Schritt (Ground Truth)
-Nach Ausführung von **Schritt 2** muss die Datei **`gt.csv`** in den Ordner **`FullIJCNN2013/`** eingefügt werden (falls sie nicht bereits dort enthalten ist).
+Nach Ausführung von **Schritt 2** muss die Datei **`gt.csv`** in den Ordner **`FullIJCNN2013/`** eingefügt werden.
 
 **Begründung:** Die Konvertierung in YOLO‑Labels basiert auf `gt.csv`. Ohne korrekt positionierte Ground‑Truth‑Datei ist keine konsistente Label‑Generierung möglich.
 
