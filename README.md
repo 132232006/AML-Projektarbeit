@@ -88,7 +88,7 @@ Ultralytics erzeugt standardisierte Learning Curves, u. a.:
 ---
 
 ### 6 — Validierung und Testauswertung/Metriken (model.val auf val und test)
-Die Evaluation erfolgt getrennt auf `val` und `test` (entsprechend `data.yaml`) mittels `model.val`. Berichtet werden mAP‑Metriken (mAP50, mAP50‑95) sowie Precision/Recall. Optional kann eine Confusion‑Matrix zur Fehleranalyse (insbesondere bei 43 Klassen) erzeugt werden.
+Die Evaluation erfolgt getrennt auf `val` und `test` (entsprechend `data.yaml`) mittels `model.val`. Berichtet werden mAP‑Metriken (mAP50, mAP50‑95) sowie Precision/Recall.
 
 ---
 
