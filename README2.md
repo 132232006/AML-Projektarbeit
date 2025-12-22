@@ -2,6 +2,7 @@
 
 ## Zusammenfassung (Abstract)
 Diese Projektarbeit implementiert eine reproduzierbare Pipeline zur **Detektion und Klassifikation deutscher Verkehrszeichen** mittels **Single‑Stage Objektdetektion** (Ultralytics **YOLOv8**) auf dem Datensatz **German Traffic Sign Detection Benchmark (GTSDB)**, bereitgestellt als Archiv **FullIJCNN2013**.  
+
 Der Workflow umfasst  
 (a) die Bereitstellung des Datensatzes inklusive Ground‑Truth‑Annotationen,  
 (b) die Konvertierung in das **YOLO‑Format** (Train/Val/Test),  
