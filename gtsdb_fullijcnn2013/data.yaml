@@ -1,0 +1,49 @@
+path: /home/jovyan/work/Projektarbeit AML/gtsdb_fullijcnn2013/yolo_data
+train: images/train
+val: images/val
+test: images/test
+nc: 43
+names:
+- "H\xF6chstgeschwindigkeit (20 km/h)"
+- "H\xF6chstgeschwindigkeit (30 km/h)"
+- "H\xF6chstgeschwindigkeit (50 km/h)"
+- "H\xF6chstgeschwindigkeit (60 km/h)"
+- "H\xF6chstgeschwindigkeit (70 km/h)"
+- "H\xF6chstgeschwindigkeit (80 km/h)"
+- "Ende der Geschwindigkeitsbeschr\xE4nkung (80 km/h)"
+- "H\xF6chstgeschwindigkeit (100 km/h)"
+- "H\xF6chstgeschwindigkeit (120 km/h)"
+- "\xDCberholverbot"
+- "\xDCberholverbot f\xFCr Fahrzeuge \xFCber 3,5 t"
+- "Vorfahrt an der n\xE4chsten Kreuzung"
+- "Vorfahrtstra\xDFe"
+- "Vorfahrt gew\xE4hren"
+- Stoppschild
+- Durchfahrt verboten
+- "Verbot f\xFCr Fahrzeuge \xFCber 3,5 t"
+- Einfahrt verboten
+- Gefahrstelle
+- "Gef\xE4hrliche Kurve nach links"
+- "Gef\xE4hrliche Kurve nach rechts"
+- Doppelkurve
+- Unebene Fahrbahn
+- Glatte Fahrbahn
+- Fahrbahnverengung rechts
+- Baustelle
+- Ampel
+- "Fu\xDFg\xE4nger\xFCberweg"
+- Achtung Kinder
+- Radverkehr kreuzt
+- "Schnee- und Eisgl\xE4tte"
+- Wildwechsel
+- "Ende s\xE4mtlicher Geschwindigkeits- und \xDCberholbeschr\xE4nkungen"
+- 'Vorgeschriebene Fahrtrichtung: rechts'
+- 'Vorgeschriebene Fahrtrichtung: links'
+- 'Vorgeschriebene Fahrtrichtung: geradeaus'
+- 'Vorgeschriebene Fahrtrichtung: rechts oder geradeaus'
+- 'Vorgeschriebene Fahrtrichtung: links oder geradeaus'
+- Rechts halten
+- Links halten
+- Kreisverkehr
+- "Ende des \xDCberholverbots"
+- "Ende des \xDCberholverbots f\xFCr Fahrzeuge \xFCber 3,5 t"
