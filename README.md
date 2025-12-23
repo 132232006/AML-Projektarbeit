@@ -25,6 +25,9 @@ Die Benchmark‑Seite beschreibt den Datensatz, das Bildformat (PPM), die Variab
 ---
 
 ## Wichtiger manueller Schritt (Ground Truth)
+
+Zunächste alle Daten entpacken und in einem Ordner im Jupyter Notebook ablegen (oder lokal ablegen).
+
 Nach Ausführung von **Schritt 2** muss die Datei **`gt.csv`** in den Ordner **`FullIJCNN2013/`** eingefügt werden.
 
 Die Konvertierung in YOLO‑Labels basiert auf `gt.csv`. Ohne korrekt positionierte Ground‑Truth‑Datei ist keine konsistente Label‑Generierung möglich.
